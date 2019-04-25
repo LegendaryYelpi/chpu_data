@@ -108,7 +108,6 @@ void	parsing(double *x, double *y, double *z)
 		all_pogr = XYZ_string_to_double(string, x, y, z, &result, all_pogr);
 	}
 	fpogr.close();
-	//дописать проверки на 0
 	*x = *x - all_pogr[3];
 	*y = *y - all_pogr[4];
 	*z = *z - all_pogr[5];
